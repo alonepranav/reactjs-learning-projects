@@ -11,7 +11,7 @@ app.use(cors())
 
 
 const connectDB = async () => {
-    mongoose.connect(process.env.URL, { useUnifiedTopology: true, useNewUrlParser: true })
+    await mongoose.connect(process.env.URL, { useUnifiedTopology: true, useNewUrlParser: true })
     if (mongoose.connection)
         console.log("Connected to database");
     else
