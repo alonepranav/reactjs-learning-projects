@@ -1,6 +1,6 @@
 # Notes app
 
-### a simple notes app with backend, ere you can add node, edit them and delete them.
+### A simple notes app with backend, here you can add node, edit them and delete them.
 
 #### Created : 8/7/2023
 
