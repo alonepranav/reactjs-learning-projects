@@ -6,7 +6,7 @@ import About from "./app/About";
 import AddUser from "./app/AddUser";
 import EditUser from "./app/EditUser";
 import UserDetails from "./app/UserDetails";
-export const BACKEND = "https://ums-backend-k558.onrender.com";
+export const BACKEND = "https://user-management-system-pranav.onrender.com";
 
 function App() {
   return (
