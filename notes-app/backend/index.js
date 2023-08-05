@@ -76,7 +76,11 @@ app.post('/deletenote', async (req, res) => {
 
 
 app.get('/', (req, res) => {
-    res.send("Home")
+    res.send(`
+    <h1>Notes App Backend</h1>
+    <br/>
+    Developer : <a href="https://github.com/pranavshilavane">Pranav</a>
+    `)
 })
 
 
