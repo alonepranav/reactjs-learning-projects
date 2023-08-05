@@ -30,7 +30,7 @@ export default function AddUser() {
 
   return (
     <>
-      <div className="flex justify-center items-center h-full w-screen bg-slate-100">
+      <div className="flex justify-center items-center h-screen w-screen bg-slate-100">
         <div className="mx-2 w-full md:w-1/2 bg-white p-5 rounded">
           <form onSubmit={handleSubmit}>
             <h4 className="font-semibold text-3xl mb-5">

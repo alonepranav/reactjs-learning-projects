@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
+import { Link,  useNavigate, useParams } from "react-router-dom";
 import { BACKEND } from "../App";
 import { useEffect } from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
