@@ -2,12 +2,12 @@ import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDlTKgVMLsmFpsTOvCltrOJzzNF6IXH4rU",
-  authDomain: "pranav-react-firebase-crud-app.firebaseapp.com",
-  projectId: "pranav-react-firebase-crud-app",
-  storageBucket: "pranav-react-firebase-crud-app.appspot.com",
-  messagingSenderId: "424013607712",
-  appId: "1:424013607712:web:713547a0d8e217ac5c9d45",
+  apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);

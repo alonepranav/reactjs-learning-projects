@@ -7,8 +7,7 @@ import AddModal from "./components/AddModal";
 import EditModal from "./components/EditModal";
 import { createPortal } from "react-dom";
 import ReadingPopUp from "./components/ReadingPopUp";
-export const BACKEND = "https://backend-notes-app-ttxf.onrender.com";
-// export const BACKEND = "http://localhost:8000";
+export const BACKEND = import.meta.env.VITE_BACKEND_LINK;
 
 function App() {
   const [display, setDisplay] = useState(false);

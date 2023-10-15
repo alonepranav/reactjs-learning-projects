@@ -3,13 +3,15 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBStduAYIQefQdT2F9O1DuMHnaepi2wnmU",
-  authDomain: "react-contact-book-app.firebaseapp.com",
-  projectId: "react-contact-book-app",
-  storageBucket: "react-contact-book-app.appspot.com",
-  messagingSenderId: "126586211505",
-  appId: "1:126586211505:web:e6e174957cad5afcaee690",
+  apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
+
+console.log(firebaseConfig);
 
 const app = initializeApp(firebaseConfig);
 

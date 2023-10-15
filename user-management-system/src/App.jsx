@@ -6,9 +6,7 @@ import About from "./app/About";
 import AddUser from "./app/AddUser";
 import EditUser from "./app/EditUser";
 import UserDetails from "./app/UserDetails";
-export const BACKEND =
-  "https://user-management-system-pranav-backend.onrender.com";
-// export const BACKEND = "http://localhost:8000";
+export const BACKEND = import.meta.env.VITE_BACKEND_LINK;
 
 function App() {
   return (
